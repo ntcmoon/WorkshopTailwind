@@ -34,7 +34,7 @@
             </div>
         </div>
     </nav>
-    <section class="hero bg-[url('https://picsum.photos/200/300?grayscale')] bg-no-repeat bg-cover w-full h-[400px] flex items-center">
+    <section class="hero bg-[url('https://picsum.photos/200/300?grayscale')] bg-no-repeat bg-cover w-full h-[500px] flex items-center">
         <div class="copy-write w-96 font-bold ml-[12.5vw] text-white ">
             <h1 class="text-5xl">Move Smarter <br/> With Moveto</h1>
             <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit pariatur sit blanditiis incidunt consequatur possimus magni libero, rerum placeat accusamus.</p>
@@ -42,18 +42,96 @@
         </div>
     </section>
     <section class="content">
-        <div class="container">
-            <div class="submission">
-                <h2>Get your free Moving</h2>
-                <form>
-                    <label for="">SRC Zip Code<input type="" name="" id=""></label>
-                    <label for="">DEST Zip Code<input type="" name="" id=""></label>
+        <div class="container shadow-xl w-[75vw] m-auto transform  -translate-y-10 bg-white rounded p-10">
+            <div class="submission flex justify-center items-center flex items-stretch ">
+                <h2 class="font-bold text-2xl">Get your free Moving <br/> estimate here</h2>
+                <form class="flex gap-2">
+                    <div class="inp flex flex-col">
+                        <label for="src">SRC Zip Code</label> 
+                        <input type="text" name="src_zip" id="src" class="bg-slate-200 p-1 rounded w-[85%]">
+                    </div>
+                    <div class="inp flex flex-col">
+                        <label for="dst">DEST Zip Code</label>
+                        <input type="text" name="dst_zip" id="dst" class="bg-slate-200 p-1 rounded w-[85%]">
+                    </div>
+                    
                 </form>
-                <button>SUBMIT</button>
+                <button type="button" class="bg-orange-300 rounded-xl px-4 py-2 h-full self-end" >SUBMIT</button>
             </div>
-            <div class="info-1"></div>
-            <div class="info-2"></div>
+            
         </div>
+        <div class="info-1 w-[75vw] bg-white m-auto">
+            <div class="bg-orange-300 w-[120px] h-[120px] rounded-[50%] flex flex-col items-center justify-center text-white transform  translate-y-14">
+                <h2 class="font-bold text-3xl">17+</h2>
+                <p class="text-center">Year of <br/> experience</p>
+            </div>
+            
+            <div class="flex">
+                <img class="h-[400px] w-[400px] rounded-lg p-2 shadow-xl" src="https://5.imimg.com/data5/EC/GR/GLADMIN-33251204/medician-home-delivery-500x500.jpg ">
+                <div class="pl-5">
+                    <p>WHO WE ARE</p>
+                    <h1 class="font-bold text-3xl">We Are Leader In Moving <br/>Company</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum officia, debitis dolore sequi, odit laborum corrupti minus vero quos numquam maiores vitae perspiciatis tempora.</p>
+                        
+                    <div class="flex">
+                        <div class="flex">
+                            <div><i class="fa-solid fa-globe"></i></div>
+                            <div>
+                                <h3 class="text-sm">Broad Reach</h4>
+                                <p class="text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <div><i class="fa-solid fa-globe"></i></div>
+                            <div>
+                                <h3 class="text-sm">Fast,Neat and Safe</h4>
+                                <p class="text-xs">Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+            
+        </div>
+        <div class="info-2 w-[75vw] bg-white m-auto">
+            <div>
+                <div class="pt-20">
+                    <p>WHY CHOOSE US</p>
+                    <div class="flex">
+                        <h1 class="font-bold text-3xl w-[400px]">Client Satis faction Is Our <br/>Primary Focus</h1>
+                        <p class="w-[400px]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum officia, debitis dolore sequi, odit laborum corrupti minus vero quos numquam maiores vitae perspiciatis tempora.</p>
+                    </div>
+                </div>
+                <div class="flex justify-between pt-10 ">
+                    <div class="flex flex-col items-center rounded-lg p-2 shadow-xl text-center h-[180px] ">
+                        <i class="fa-solid fa-check bg-orange-300 w-[30px] h-[30px] rounded-[50%] flex justify-center items-center"></i>
+                        <h3 class="text-xl font-bold">Quality & <br/> Satisfaction</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="flex flex-col items-center rounded-lg p-2 shadow-xl text-center h-[180px]">
+                        <i class="fa-solid fa-shield-halved  bg-orange-300 w-[30px] h-[30px] rounded-[50%] flex justify-center items-center"></i>
+                        <h3 class="text-xl font-bold">Security & <br/> Reliability</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="flex flex-col items-center rounded-lg p-2 shadow-xl text-center h-[180px]">
+                        <i class="fa-solid fa-gear  bg-orange-300 w-[30px] h-[30px] rounded-[50%] flex justify-center items-center"></i>
+                        <h3 class="text-xl font-bold">Flexibility & <br/> Advice</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="flex flex-col items-center rounded-lg p-2 shadow-xl text-center h-[180px]">
+                        <i class="fa-solid fa-lightbulb  bg-orange-300 w-[30px] h-[30px] rounded-[50%] flex justify-center items-center"></i>
+                        <h3 class="text-xl font-bold">Cutting-edge <br/> Solution</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+
+    </section>
+    <section class="footer bg-orange-400 h-[300px] w-full mt-20 flex items-end justify-center">
+        <p class="text-white text-[10px]">&copy;2024 Nuttawan</p>
 
     </section>
 </body>
